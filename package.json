@@ -1,0 +1,19 @@
+{
+  "name": "inventory-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Inventory Management Integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "",
+  "license": "MIT"
+}
